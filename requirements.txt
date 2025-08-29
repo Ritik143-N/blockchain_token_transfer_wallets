@@ -1,0 +1,16 @@
+"""
+Requirements file for blockchain fund transfer project
+Install with: pip install -r requirements.txt
+"""
+
+# Solana blockchain interaction
+solana>=0.34.0
+
+# Ethereum blockchain interaction  
+web3>=6.0.0
+
+# Base58 encoding/decoding for Solana keys
+base58>=2.1.0
+
+# Optional: Environment variable management
+python-dotenv>=1.0.0
