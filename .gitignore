@@ -1,0 +1,172 @@
+# Blockchain Fund Transfer Project - .gitignore
+
+# Environment Variables (CRITICAL - Contains Private Keys)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Wallet Backup Files (Contains Private Keys)
+wallets_backup.json
+wallet_backup.json
+**/wallets_backup.json
+**/wallet_backup.json
+
+# Private Key Files
+*.key
+*.pem
+*.p12
+*.pfx
+private_keys/
+keys/
+keypairs/
+
+# Temporary Files
+/tmp/
+*.tmp
+*.temp
+solana_keypair.json
+/tmp/solana_keypair.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+.env/
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Node.js (if using any JS tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Backup Files
+*.bak
+*.backup
+*~
+
+# Compiled Files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Archives
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+
+# Blockchain Specific
+# Transaction receipts (may contain sensitive info)
+receipts/
+transactions/
+
+# Local configuration files
+config.local.json
+settings.local.json
+
+# Test Files with Real Keys (if any)
+test_keys/
+real_keys/
+
+# Cache directories
+.cache/
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+
+# Documentation build
+docs/_build/
+
+# Sensitive Data Directories
+sensitive/
+private/
+confidential/
+
+# Deployment Files
+deploy.sh
+deployment/
+
+# Local development overrides
+local_settings.py
+local_config.py
+
+# RPC URLs and API Keys (if stored separately)
+rpc_urls.txt
+api_keys.txt
+infura_keys.txt
+alchemy_keys.txt
